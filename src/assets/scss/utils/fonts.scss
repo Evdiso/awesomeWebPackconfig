@@ -1,0 +1,21 @@
+@font-face {
+  font-family: "Montserrat";
+  src: url('/assets/fonts/Montserrat/montserrat.ttf') format('truetype'); // IE9 Compat Modes
+  src: url('/assets/fonts/Montserrat/montserrat.woff') format('woff'),
+       url('/assets/fonts/Montserrat/montserrat.woff2') format('woff2')
+}
+
+@font-face {
+  font-family: "Montserrat-Bold";
+  src: url('/assets/fonts/Montserrat/montserratbold.ttf') format('truetype'); // IE9 Compat Modes
+  src: url('/assets/fonts/Montserrat/montserratbold.woff') format('woff'),
+       url('/assets/fonts/Montserrat/montserratbold.woff2') format('woff2')
+}
+
+@font-face {
+  font-family: "Montserrat-Light";
+  src: url('/assets/fonts/Montserrat/montserratlight.ttf') format('truetype'); // IE9 Compat Modes
+  src: url('/assets/fonts/Montserrat/montserratlight.woff') format('woff'),
+       url('/assets/fonts/Montserrat/montserratlight.woff2') format('woff2')
+}
+   

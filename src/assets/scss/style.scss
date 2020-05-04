@@ -1,0 +1,31 @@
+@import './utils/mixins.scss';
+@import './utils//reset.scss';
+@import './utils/fonts.scss';
+@import './utils/vars.scss';
+
+
+@media screen and (max-width: $desktopWidth) {
+  html {
+    font-size: 15px;
+  }
+}
+
+@media screen and (max-width: $tableWidth) {
+  html {
+    font-size: 14px;
+  }
+}
+
+@media screen and (max-width: $smPhoneWidth) {
+  html {
+    font-size: 13px;
+  }
+}
+
+body {
+  font-size: $mainFontSize;
+  font-family: $fontDefault;
+  h1 {
+    font-size: rem(20);
+  }
+}
